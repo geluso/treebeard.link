@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    #main {
+        width: 95%;
+        padding: 2%;
+    }
+}
+
+@media (min-width: 769px) {
+    #main {
+        width: 800px;
+        padding: 1em;
+    }
+}
+
+body {
+    background-color: black;
+    font-family: monospace;
+    font-size: larger;
+}
+
+#main {
+    background-color: white;
+    margin: auto;
+}
+
+#main textarea {
+    width: 55%;
+}
